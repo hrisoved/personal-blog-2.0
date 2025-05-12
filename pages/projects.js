@@ -25,13 +25,12 @@ export default function Projects() {
               <Card
                 key={d.title}
                 title={d.title}
+                status={d.status}
                 description={d.description}
                 imgSrc={d.imgSrc}
                 href={d.href}
                 github={d.github}
-                tech1={d.tech1}
-                tech2={d.tech2}
-                tech3={d.tech3}
+                tech={d.tech}
               />
             ))}
           </div>
