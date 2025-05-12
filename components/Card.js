@@ -20,7 +20,10 @@ const Card = ({ title, description, imgSrc, href, github, tech1, tech2, tech3 })
         </div>
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
 
-        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
+        <p
+          className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400"
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
         <div className="flex flex-row justify-between">
           <div className="text-sm text-gray-400">
             {tech1} &#8226; {tech2} &#8226; {tech3}
