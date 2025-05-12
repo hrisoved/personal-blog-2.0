@@ -4,7 +4,7 @@ const projectsData = [
     status: 'Active',
     description: `Script Forms is a social impact platform I founded to 
     simplify access to social welfare services for migrants in Ireland, 
-    using automation and translating the social welfare system in 4 different 
+    by translating the social welfare system in 4 different 
     languages — Polish, Romanian, Russian, and Ukrainian.
     
     <br/><br/> 🎯 This app has supported over 15,000 users and 
