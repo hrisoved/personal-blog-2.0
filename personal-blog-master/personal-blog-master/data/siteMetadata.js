@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Diana Hrisovescu',
   headerTitle: '',
   description:
-    'My personal website and blog where I share my thoughts, reflections and experiences',
+    'my personal website and blog where I share my thoughts',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: '',

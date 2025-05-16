@@ -24,6 +24,7 @@ export const MDXComponents = {
       throw new Error(`❌ Layout "${layout}" not found in layoutMap`)
     }
   
+    
     return <Layout {...rest} />
   }
 }

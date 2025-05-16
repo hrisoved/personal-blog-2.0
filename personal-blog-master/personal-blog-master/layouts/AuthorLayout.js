@@ -8,6 +8,7 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const {
+    layout,
     name,
     avatar,
     occupation,
