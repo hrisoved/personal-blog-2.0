@@ -6,17 +6,26 @@ import CustomLink from './Link'
 import TOCInline from './TOCInline'
 import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
+import AuthorLayout from '@/layouts/AuthorLayout'
 
+const layoutMap = {
+  AuthorLayout,
+}
 export const MDXComponents = {
   Image,
   TOCInline,
   a: CustomLink,
   pre: Pre,
   BlogNewsletterForm: BlogNewsletterForm,
-  wrapper: ({ components, layout, ...rest }) => {
-    const Layout = require(`../layouts/${layout}`).default
+  wrapper: ({ layout, ...rest }) => {
+    const Layout = layoutMap[layout]
+  
+    if (!Layout) {
+      throw new Error(`❌ Layout "${layout}" not found in layoutMap`)
+    }
+  
     return <Layout {...rest} />
-  },
+  }
 }
 
 export const MDXLayoutRenderer = ({ layout, mdxSource, ...rest }) => {
