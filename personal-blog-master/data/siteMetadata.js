@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: '',
   siteRepo: 'https://github.com/hrisoved/personal-blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/profile-photo1.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: '',
   github: 'https://github.com/hrisoved',

@@ -31,7 +31,8 @@ input:-webkit-autofill:focus {
 }
 
 #nprogress .bar {
-  background: #de1d8d;
+  background: #29C5F6;
+;
 
   position: fixed;
   z-index: 1031;
@@ -49,7 +50,7 @@ input:-webkit-autofill:focus {
   right: 0px;
   width: 100px;
   height: 100%;
-  box-shadow: 0 0 10px #de1d8d, 0 0 5px #de1d8d;
+  box-shadow: 0 0 10px #29C5F6, 0 0 5px #29C5F6;
   opacity: 1;
 
   -webkit-transform: rotate(3deg) translate(0px, -4px);
@@ -72,8 +73,8 @@ input:-webkit-autofill:focus {
   box-sizing: border-box;
 
   border: solid 2px transparent;
-  border-top-color: #de1d8d;
-  border-left-color: #de1d8d;
+  border-top-color: #29C5F6;
+  border-left-color: #29C5F6;
   border-radius: 50%;
 
   -webkit-animation: nprogress-spinner 400ms linear infinite;

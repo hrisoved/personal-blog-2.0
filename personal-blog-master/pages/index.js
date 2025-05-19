@@ -6,6 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import { RoughNotation } from 'react-rough-notation'
 import ViewCounter from '@/components/ViewCounter'
+import { useState, useEffect } from 'react'
 
 const MAX_DISPLAY = 3
 
@@ -16,6 +17,15 @@ export async function getStaticProps() {
 }
 
 export default function Home({ posts }) {
+  const [animationDone, setAnimationDone] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAnimationDone(true)
+    }, 1000 + 2500) // match RoughNotation timing
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
@@ -24,7 +34,7 @@ export default function Home({ posts }) {
           <div className="pt-6">
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hi, I am{' '}
-              <span className="text-primary-color-500 dark:text-primary-color-dark-500">Diana</span>
+              <span style={{ color: '#DE1D8D' }}>Diana</span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               {`Welcome to ${siteMetadata.description}. I am a Data Engineer who is passionate about Data Science and Automation. In my free time, I like developing `}
@@ -48,17 +58,19 @@ export default function Home({ posts }) {
             <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
               This is my place for{' '}
               <RoughNotation
-                animate="true"
+                animate
                 type="highlight"
                 show={true}
-                color="#DE1D8D"
+                color="#29C5F6"
                 animationDelay={1000}
                 animationDuration={2500}
-                className="text-slate-200"
               >
-                thoughts, reflections & everything&nbsp;
+                  <span className={animationDone ? 'text-white' : 'text-slate-400 dark:text-slate-400'}>
+                  thoughts, reflections & everything&nbsp;
+                </span>
               </RoughNotation>
-              in between. Have a good read!{' '}
+                
+                 in between. Have a good read!{' '}
               <div className="mt-8 text-slate-600 dark:text-slate-400">
                 <span className="text-sm">Press</span>{' '}
                 <span className="rounded-md bg-gray-300 p-1 text-sm text-gray-900 dark:bg-gray-400">

@@ -1,7 +1,7 @@
 ---
 layout: AuthorLayout
 name: Diana Hrisovescu
-avatar: /static/images/avatar.png
+avatar: /static/images/profile-photo1.jpg
 occupation: Ex Founder, Student at University of Notre Dame, IN
 # company:
 # email:
