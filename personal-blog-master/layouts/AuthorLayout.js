@@ -48,8 +48,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://x.com/dianaHrisovescu"
-                data-screen-name="@dianaHrisovescu"
+                href="https://twitter.com/messages/compose?recipient_id=1198558367989547008&text=Hey Henry"
+                data-screen-name="@yellowdragoon1"
                 target="_blank"
                 rel="noreferrer noopener"
               >
