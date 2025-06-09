@@ -7,9 +7,10 @@ import TOCInline from './TOCInline'
 import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
 import AuthorLayout from '@/layouts/AuthorLayout'
+import PostLayout from '@/layouts/PostLayout'
 
 const layoutMap = {
-  AuthorLayout,
+  AuthorLayout, PostLayout
 }
 export const MDXComponents = {
   Image,
