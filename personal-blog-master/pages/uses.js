@@ -1,6 +1,7 @@
 import siteMetadata from '@/data/siteMetadata'
 import { PageSEO } from '@/components/SEO'
 import Link from '@/components/Link'
+import usesData from '@/data/usesData';
 
 export default function Uses() {
   return (
