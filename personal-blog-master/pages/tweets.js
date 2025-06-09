@@ -34,7 +34,7 @@ import { getTweets } from '@/lib/twitter'
 //   return { props: { tweets } }
 // }
 
-export default function Tweets({ tweets }) {
+export default function Tweets({ tweets = [] }) {
   return (
     <>
       <PageSEO
@@ -51,9 +51,11 @@ export default function Tweets({ tweets }) {
             place to publicly share what inspires me, makes me laugh, and makes me think.
           </p>
         </div>
-        {tweets.map((tweet) => (
-          <Tweet key={tweet.id} {...tweet} />
-        ))}
+        {tweets.length === 0 ? (
+          <p className="text-gray-400">No tweets to show at the moment.</p>
+        ) : (
+          tweets.map((tweet) => <Tweet key={tweet.id} {...tweet} />)
+        )}
       </div>
     </>
   )
