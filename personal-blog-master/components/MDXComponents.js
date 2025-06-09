@@ -10,9 +10,10 @@ import AuthorLayout from '@/layouts/AuthorLayout'
 import PostLayout from '@/layouts/PostLayout'
 
 const layoutMap = {
-  AuthorLayout, 
+  AuthorLayout,
   PostLayout,
 }
+
 export const MDXComponents = {
   Image,
   TOCInline,
