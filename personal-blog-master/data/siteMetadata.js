@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: '',
-  siteRepo: 'https://github.com/hrisoved/personal-blog',
+  siteRepo: 'https://personal-blog-dianas-projects-a1268515.vercel.app',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/profile-photo1.jpg',
   socialBanner: '/static/images/twitter-card.png',
