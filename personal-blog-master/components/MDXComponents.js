@@ -19,14 +19,13 @@ export const MDXComponents = {
   BlogNewsletterForm: BlogNewsletterForm,
   wrapper: ({ layout, ...rest }) => {
     const Layout = layoutMap[layout]
-  
+
     if (!Layout) {
       throw new Error(`❌ Layout "${layout}" not found in layoutMap`)
     }
-  
-    
+
     return <Layout {...rest} />
-  }
+  },
 }
 
 export const MDXLayoutRenderer = ({ layout, mdxSource, ...rest }) => {

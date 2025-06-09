@@ -68,15 +68,23 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDelay={300}
                 animationDuration={3000}
               >
-                  {text1} Currently, I have just completed my undergraduate degree and am heading to <Link
+                {text1} Currently, I have just completed my undergraduate degree and am heading to{' '}
+                <Link
                   href={'https://www.nd.edu/'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                > University of Notre Dame</Link> in Indiana to pursue a master’s as 1 of 4 Naughton Fellows selected this year on the <Link
+                >
+                  {' '}
+                  University of Notre Dame
+                </Link>{' '}
+                in Indiana to pursue a master’s as 1 of 4 Naughton Fellows selected this year on the{' '}
+                <Link
                   href={'https://esteem.nd.edu/'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                > ESTEEM </Link> (Engineering, Science, and Technology Entrepreneurship Excellence Master’s) program.
-                  
-              
+                >
+                  {' '}
+                  ESTEEM{' '}
+                </Link>{' '}
+                (Engineering, Science, and Technology Entrepreneurship Excellence Master’s) program.
               </RoughNotation>
             </p>
             <br />
