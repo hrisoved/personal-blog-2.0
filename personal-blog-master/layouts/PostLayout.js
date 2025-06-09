@@ -24,9 +24,14 @@ const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${
 
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
+const READING_SPEED_WPM = 200
+
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, fileName, date, title, images, tags, readingTime } = frontMatter
   const postUrl = `${siteMetadata.siteUrl}/blog/${slug}`
+  
+  let readingTimeMins = Math.ceil(readingTime.words / READING_SPEED_WPM)
+
   return (
     <SectionContainer>
       <BlogSEO
@@ -60,7 +65,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </span>
                 <span className="flex items-center gap-1.5">
                   <HiOutlineClock className="h-5 w-5" />
-                  {readingTime.text}
+                  {readingTimeMins} min read
                 </span>
                 <span className="flex items-center gap-1.5">
                   <HiOutlineEye className="h-5 w-5" />

@@ -9,8 +9,12 @@ import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import { HiOutlinePencil, HiOutlineClock, HiOutlineEye } from 'react-icons/hi'
 import { BsCalendarDate } from 'react-icons/bs'
 
+const READING_SPEED_WPM = 200
+
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, date, title, summary, readingTime } = frontMatter
+
+  let readingTimeMins = Math.ceil(readingTime.words / READING_SPEED_WPM)
 
   return (
     <SectionContainer>
@@ -40,7 +44,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </span>
                 <span className="flex items-center gap-1.5">
                   <HiOutlineClock className="h-5 w-5" />
-                  {readingTime.text}
+                  {readingTimeMins} min read
                 </span>
               </div>
             </div>

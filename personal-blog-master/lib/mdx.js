@@ -94,11 +94,16 @@ export async function getFileBySlug(type, slug) {
     },
   })
 
+  let blogWithoutFrontmatter = source.split('---').slice(2).join('')
+  let words = blogWithoutFrontmatter.trim().split(/\s+/)
+
   return {
     mdxSource: code,
     toc,
     frontMatter: {
-      readingTime: readingTime(code),
+      readingTime: {
+        words: words.length,
+      },
       slug: slug || null,
       fileName: fs.existsSync(mdxPath) ? `${slug}.mdx` : `${slug}.md`,
       ...frontmatter,
