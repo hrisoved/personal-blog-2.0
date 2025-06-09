@@ -4,8 +4,8 @@
   "private": true,
   "author": {
     "name": "Diana Hrisovescu",
-    "email": "",
-    "url": ""
+    "email": "hrisoved@tcd.ie",
+    "url": "https://dianahrisovescu.dev"
   },
   "scripts": {
     "start": "next start",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pycoder2000/blog.git"
+    "url": "git+https://github.com/hrisoved/blog.git"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
