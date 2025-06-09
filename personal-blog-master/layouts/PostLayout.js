@@ -29,7 +29,7 @@ const READING_SPEED_WPM = 200
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, fileName, date, title, images, tags, readingTime } = frontMatter
   const postUrl = `${siteMetadata.siteUrl}/blog/${slug}`
-  
+
   let readingTimeMins = Math.ceil(readingTime.words / READING_SPEED_WPM)
 
   return (
