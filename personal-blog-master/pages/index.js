@@ -56,8 +56,8 @@ export default function Home({ posts }) {
               </span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              `Welcome to ${siteMetadata.description}
-              <p>
+              {'Welcome to ${siteMetadata.description}'}
+              <p><br></br>
                 I’m Diana — an entrepreneur, maker, and recent graduate with a passion for designing
                 and communicating things that make people's lives better.`
               </p>
