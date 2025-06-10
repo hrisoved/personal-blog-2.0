@@ -66,10 +66,12 @@ export default function Home({ posts }) {
                   type="underline"
                   show={true}
                   color="#FF0050"
-                  animationDelay={300}
+                  // animationDelay={300}
                   animationDuration={800}
                 >
-                  college years,
+                <span style={{ display: 'inline-block', maxWidth: '120px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+
+                  college years,</span>
                 </RoughNotation>{' '}
                 <RoughNotation
                   type="underline"
