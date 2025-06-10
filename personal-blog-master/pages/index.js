@@ -61,56 +61,64 @@ export default function Home({ posts }) {
 
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               <RoughNotationGroup show={true}>
-                Here you’ll find stories from my{' '}
-                <RoughNotation
-                  type="underline"
-                  show={true}
-                  color="#FF0050"
-                  // animationDelay={300}
-                  animationDuration={800}
+                <span
+                  style={{
+                    display: 'inline-block',
+                    maxWidth: '100%', // allow full width but limit if needed
+                    whiteSpace: 'normal', // allow wrapping
+                    overflow: 'visible', // no clipping for underline
+                    textOverflow: 'unset',
+                  }}
                 >
+                  Here you’ll find stories from my{' '}
+                  <RoughNotation
+                    type="underline"
+                    show={true}
+                    color="#FF0050"
+                    // animationDelay={300}
+                    animationDuration={800}
+                  >
                     college years,
-
-                </RoughNotation>{' '}
-                <RoughNotation
-                  type="underline"
-                  show={true}
-                  color="#DE1D8D"
-                  animationDelay={300}
-                  animationDuration={800}
-                >
-                  startup journey,
-                </RoughNotation>{' '}
-                <RoughNotation
-                  type="underline"
-                  show={true}
-                  color="#A78BFA"
-                  animationDelay={600}
-                  animationDuration={800}
-                >
-                  public speaking
-                </RoughNotation>
-                ,{' '}
-                <RoughNotation
-                  type="underline"
-                  show={true}
-                  color="#60A5FA"
-                  animationDelay={900}
-                  animationDuration={800}
-                >
-                  mentorship
-                </RoughNotation>
-                , and building{' '}
-                <RoughNotation
-                  type="underline"
-                  show={true}
-                  color="#FB923C	"
-                  animationDelay={1200}
-                  animationDuration={800}
-                >
-                  confidence and resilience
-                </RoughNotation>{' '}
-                {/* and
+                  </RoughNotation>{' '}
+                  <RoughNotation
+                    type="underline"
+                    show={true}
+                    color="#DE1D8D"
+                    animationDelay={300}
+                    animationDuration={800}
+                  >
+                    startup journey,
+                  </RoughNotation>{' '}
+                  <RoughNotation
+                    type="underline"
+                    show={true}
+                    color="#A78BFA"
+                    animationDelay={600}
+                    animationDuration={800}
+                  >
+                    public speaking
+                  </RoughNotation>
+                  ,{' '}
+                  <RoughNotation
+                    type="underline"
+                    show={true}
+                    color="#60A5FA"
+                    animationDelay={900}
+                    animationDuration={800}
+                  >
+                    mentorship
+                  </RoughNotation>
+                  , and building{' '}
+                  <RoughNotation
+                    type="underline"
+                    show={true}
+                    color="#FB923C	"
+                    animationDelay={1200}
+                    animationDuration={800}
+                  >
+                    confidence and resilience
+                  </RoughNotation>{' '}
+                  {/* and
                 <RoughNotation
                   type="underline"
                   show={true}
@@ -120,7 +128,8 @@ export default function Home({ posts }) {
                 >
                   resilience
                 </RoughNotation>{' '} */}
-                while working on things that matter most.
+                  while working on things that matter most.
+                </span>
                 <p>
                   You’ll also find{' '}
                   <RoughNotation
