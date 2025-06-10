@@ -19,7 +19,7 @@ const experienceData = [
     range: 'June 2024 - August 2024',
     url: 'https://www.microsoft.com/en-ie/',
     text1:
-      'Contributed to the development of an internal engineering platform aimed at improving workflow efficiency for global engineering teams - adopted by over 30 product teams  across Microsoft products such as Microsoft Office 365 and Copilot .',
+      'Contributed to the development of an internal engineering platform aimed at improving workflow efficiency for 30 global engineering teams across products such as Microsoft Office 365 and Copilot.',
     text2:
       'Led efforts to define and communicate the value proposition of the tool, helping stakeholders better understand its strategic impact.',
     text3:
