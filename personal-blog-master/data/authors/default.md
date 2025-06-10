@@ -8,9 +8,8 @@ occupation: Ex Founder, Student at University of Notre Dame, IN
 # twitter:
 linkedin: https://www.linkedin.com/in diana-hrisovescu-a57b341b7/
 github: https://github.com/hrisoved/
-text1: Hi, I’m Diana Hrisovescu — an innovator and entrepreneur with a background in Computer Science and Business, passionate about creating accessible, user-first digital experiences.
+text1: Hi, I’m Diana, a STEM enthusiast with a background in Computer Science and Business. I’m deeply fascinated by neuroscience, cognitive psychology, and behavior design. I’m fascinated by how habit formation, mental models, and cognitive biases influence our decisions and behaviors. As an entrepreneur at heart, I thrive on solving complex problems, designing innovative solutions, and exploring how technology intersects with the science of human behavior.
 
-text2: I’m the founder of ScriptForms, a platform that has helped over 15,000 migrants in Ireland access public services more easily. I’ve led product design and development from the ground up and recently completed a Product Management internship at Microsoft, where I helped shape and communicate the value proposition of an internal engineering tool by improving how its potential impact was visualised and understood across teams.
 
-text3: My work has been recognised by the Irish Independent and Business Post as part of their 30 Under 30 lists for young innovators and entrepreneurs. I’m currently pursuing a Master’s in Engineering, Science, and Technology Entrepreneurship Excellence (ESTEEM) at the University of Notre Dame as a Naughton Fellow, continuing my journey at the intersection of technology, impact, and design.
+
 ---

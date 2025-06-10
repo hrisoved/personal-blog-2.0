@@ -51,13 +51,19 @@ export default function Home({ posts }) {
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               {`Welcome to ${siteMetadata.description}. I’m Diana — an entrepreneur, innovator,  maker, and recent graduate exploring what it means to build with purpose.`}
             </h2>
-            <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              I write about the lessons I’ve learned from college, startups, fellowships, and
-              growing through the messiness of <i>life</i> on my own as a young adult.
-            </h2>
+
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               <RoughNotationGroup show={true}>
                 Here you’ll find stories from my{' '}
+                <RoughNotation
+                  type="underline"
+                  show={true}
+                  color="#FF0050"
+                  animationDelay={300}
+                  animationDuration={800}
+                >
+                  college years,
+                </RoughNotation>{' '}
                 <RoughNotation
                   type="underline"
                   show={true}
@@ -86,7 +92,7 @@ export default function Home({ posts }) {
                 >
                   public speaking
                 </RoughNotation>{' '}
-                and{' '}
+                ,{' '}
                 <RoughNotation
                   type="underline"
                   show={true}
@@ -96,7 +102,7 @@ export default function Home({ posts }) {
                 >
                   mentorship
                 </RoughNotation>
-                , and honest reflections on building{' '}
+                , and lastly building{' '}
                 <RoughNotation
                   type="underline"
                   show={true}
@@ -104,9 +110,20 @@ export default function Home({ posts }) {
                   animationDelay={1200}
                   animationDuration={800}
                 >
-                  confidence
+                  confidence and resilience
                 </RoughNotation>{' '}
-                while building things that matter.
+                {/* and
+                <RoughNotation
+                  type="underline"
+                  show={true}
+                  color="#FB923C	"
+                  animationDelay={1200}
+                  animationDuration={800}
+                >
+                  resilience
+                </RoughNotation>{' '} */}
+                while working on things that matter and navigating the messiness of <i>life</i> on
+                my own, as a young adult..
               </RoughNotationGroup>
             </h2>
           </div>

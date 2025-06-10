@@ -92,9 +92,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                   (Engineering, Science, and Technology Entrepreneurship Excellence Master) program.
                 </RoughNotation>
               </p>
-              <br />
 
-              <br />
             </div>
 
             <p>
@@ -107,29 +105,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 contacts.
               </Link>
             </p>
-            <p>
-              This site is inspired by the following{' '}
-              <Link
-                href={'https://github.com/pycoder2000/blog'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-              >
-                template
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  className="ml-0.5 inline-block h-4 w-4 fill-current"
-                >
-                  <g data-name="Layer 2">
-                    <g data-name="external-link">
-                      <rect width="24" height="24" opacity="0" />
-                      <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z" />
-                      <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
-                    </g>
-                  </g>
-                </svg>
-              </Link>{' '}
-              by Parth Desai.
-            </p>
+            
           </div>
           <div className="mt-10 md:pl-1">
             <div className="space-y-2 pt-6 pb-8 md:space-y-5">
@@ -161,7 +137,8 @@ export default function AuthorLayout({ children, frontMatter }) {
           <div className="md:pl-15 mt-10">
             <br></br>
             <h3 className="text-1xl font-extrabold leading-3 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-3 md:text-2xl md:leading-5">
-              Teaching and Mentoring
+              
+              <br></br>Teaching, Research and Mentoring
             </h3>
             <div className="max-w-none pt-8 pb-8 xl:col-span-2">
               {teachingData.map((d) => (
@@ -180,7 +157,32 @@ export default function AuthorLayout({ children, frontMatter }) {
               ))}
             </div>
           </div>
+          <br></br>
+        <p><br></br>
+              This site is inspired by the following{' '}
+              <Link
+                href={'https://github.com/pycoder2000/blog'}
+                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+              >
+                template
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="ml-0.5 inline-block h-4 w-4 fill-current"
+                >
+                  <g data-name="Layer 2">
+                    <g data-name="external-link">
+                      <rect width="24" height="24" opacity="0" />
+                      <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z" />
+                      <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
+                    </g>
+                  </g>
+                </svg>
+              </Link>{' '}
+              by Parth Desai.
+            </p>
         </div>
+        
       </div>
     </>
   )
