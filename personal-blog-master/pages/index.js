@@ -52,8 +52,8 @@ export default function Home({ posts }) {
               {`Welcome to ${siteMetadata.description}. I’m Diana — an entrepreneur, innovator,  maker, and recent graduate exploring what it means to build with purpose.`}
             </h2>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              I write about the lessons I’ve learned from college, startups, fellowships, and growing through
-              the messiness of <i>life</i> on my own as a young adult.
+              I write about the lessons I’ve learned from college, startups, fellowships, and
+              growing through the messiness of <i>life</i> on my own as a young adult.
             </h2>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               <RoughNotationGroup show={true}>
