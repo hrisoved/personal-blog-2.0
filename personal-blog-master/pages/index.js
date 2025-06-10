@@ -37,7 +37,7 @@ export default function Home({ posts }) {
               Hi, I am{' '}
               <span className="text-pink-500 dark:text-emerald-400">
                 <Typewriter
-                  words={['Diana', 'a Thinker', 'a Mentor', 'a Speaker', 'a Builder']}
+                  words={['Diana', 'a Thinker', 'a Mentor', 'a Storyteller', 'a Creator', 'a Builder']}
                   colors={[
                     'text-pink-500',
                     'text-amber-500',
