@@ -53,7 +53,7 @@ export default function Home({ posts }) {
             </h2>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               I write about the lessons I’ve learned from startups, fellowships, and growing through
-              the messiness of figuring things out on my own.
+              the messiness of figuring life out on my own.
             </h2>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               <RoughNotationGroup show={true}>
@@ -183,7 +183,7 @@ export default function Home({ posts }) {
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
                   <Link href="">
                     <span className="relative flex w-80 items-center justify-between divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
-                      {' '}
+                      {'https://substack.com/@dianahrisovescu'}
                       <span className="flex w-64 items-center space-x-5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -200,11 +200,11 @@ export default function Home({ posts }) {
                           />
                         </svg>
                         <span className="pr-6 text-gray-900 dark:text-gray-100">
-                          Join My Newsletter&nbsp;&nbsp;&nbsp;
+                          Follow Along on Substack&nbsp;&nbsp;&nbsp;
                         </span>
                       </span>
                       <span className="pl-6 text-sky-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
-                        Newsletter&nbsp;&rarr;
+                        Substack&nbsp;&rarr;
                       </span>
                     </span>
                   </Link>
@@ -213,7 +213,7 @@ export default function Home({ posts }) {
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r from-teal-400 to-emerald-500 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <Link href="https://parthdesai.vercel.app/resume.pdf">
+                  <Link href="https://dianahrisovescu.dev/Diana-Hrisovescu-CV-2025-Websiste.pdf">
                     <span className="relative flex w-80 items-center justify-between divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
                       {' '}
                       <span className="flex w-64 items-center space-x-5">
