@@ -64,13 +64,13 @@ export default function Home({ posts }) {
                 <span
                   style={{
                     display: 'inline-block',
-                    maxWidth: '100%', // allow full width but limit if needed
+                    maxWidth: '80%', // allow full width but limit if needed
                     whiteSpace: 'normal', // allow wrapping
                     overflow: 'visible', // no clipping for underline
                     textOverflow: 'unset',
                   }}
                 >
-                  Here you’ll find stories from my{' '}
+                  Here you’ll find stories about my years in{' '}
                   <RoughNotation
                     type="underline"
                     show={true}
@@ -78,7 +78,7 @@ export default function Home({ posts }) {
                     // animationDelay={300}
                     animationDuration={800}
                   >
-                    college years,
+                    college,
                   </RoughNotation>{' '}
                   <RoughNotation
                     type="underline"
