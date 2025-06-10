@@ -43,31 +43,31 @@ module.exports = {
           200: '#80defc',
           300: '#4dd2fb',
           400: '#29c5f6',
-          500: '#29C5F6',  // Base color
+          500: '#29C5F6', // Base color
           600: '#1fa2cc',
           700: '#1680a3',
           800: '#0d5e7a',
           900: '#063e52',
         },
         'primary-color': {
-           50: '#e0f7fe',
+          50: '#e0f7fe',
           100: '#b3ebfd',
           200: '#80defc',
           300: '#4dd2fb',
           400: '#29c5f6',
-          500: '#29C5F6',  // Base color
+          500: '#29C5F6', // Base color
           600: '#1fa2cc',
           700: '#1680a3',
           800: '#0d5e7a',
           900: '#063e52',
         },
         'primary-color-dark': {
-           50: '#e0f7fe',
+          50: '#e0f7fe',
           100: '#b3ebfd',
           200: '#80defc',
           300: '#4dd2fb',
           400: '#29c5f6',
-          500: '#29C5F6',  // Base color
+          500: '#29C5F6', // Base color
           600: '#1fa2cc',
           700: '#1680a3',
           800: '#0d5e7a',

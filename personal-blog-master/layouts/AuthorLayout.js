@@ -32,73 +32,74 @@ export default function AuthorLayout({ children, frontMatter }) {
           {/* <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             About
           </h1> */}
+        </div>
+
+        <div className="mx-auto max-w-6xl divide-y divide-gray-400">
+          <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
+            <div className="flex flex-col items-center space-x-2 pt-8 xl:sticky xl:top-0">
+              <Image
+                src={avatar}
+                alt="avatar"
+                width="192px"
+                height="192px"
+                className="h-48 w-48 rounded-full xl:rounded-full"
+                placeholder="blur"
+                blurDataURL="/static/images/SVG-placeholder.png"
+              />
+              <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
+              <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
+              <div className="text-gray-500 dark:text-gray-400">{company}</div>
+              <div className="flex flex-col pt-3">
+                <a
+                  className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
+                  href="https://x.com/dianaHrisovescu"
+                  data-screen-name="@dianaHrisovescu"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <AiOutlineTwitter className="mr-2 mb-0.5 inline h-5 w-5" />
+                  Say Hi!
+                </a>
               </div>
-
-      <div className="mx-auto max-w-6xl divide-y divide-gray-400">
-        
-        <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-          <div className="flex flex-col items-center space-x-2 pt-8 xl:sticky xl:top-0">
-            <Image
-              src={avatar}
-              alt="avatar"
-              width="192px"
-              height="192px"
-              className="h-48 w-48 rounded-full xl:rounded-full"
-              placeholder="blur"
-              blurDataURL="/static/images/SVG-placeholder.png"
-            />
-            <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
-            <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
-            <div className="text-gray-500 dark:text-gray-400">{company}</div>
-            <div className="flex flex-col pt-3">
-              <a
-                className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://x.com/dianaHrisovescu"
-                data-screen-name="@dianaHrisovescu"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <AiOutlineTwitter className="mr-2 mb-0.5 inline h-5 w-5" />
-                Say Hi!
-              </a>
             </div>
-          </div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-            <p>
-              <RoughNotation
-                type="bracket"
-                brackets={['left', 'right']}
-                show={true}
-                color="#DE1D8D"
-                animationDelay={300}
-                animationDuration={3000}
-              >
-                {text1} Currently, I have just completed my undergraduate degree and am heading to{' '}
-                <Link
-                  href={'https://www.nd.edu/'}
-                  className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+            <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
+              <p>
+                <RoughNotation
+                  type="bracket"
+                  brackets={['left', 'right']}
+                  show={true}
+                  color="#DE1D8D"
+                  animationDelay={300}
+                  animationDuration={3000}
                 >
-                  {' '}
-                  University of Notre Dame
-                </Link>{' '}
-                in Indiana to pursue a master’s as 1 of 4 Naughton Fellows selected this year on the{' '}
-                <Link
-                  href={'https://esteem.nd.edu/'}
-                  className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                >
-                  {' '}
-                  ESTEEM{' '}
-                </Link>{' '}
-                (Engineering, Science, and Technology Entrepreneurship Excellence Master) program.
-              </RoughNotation>
-            </p>
-            <br />
-            
-            <br />
-                    </div>
+                  {text1} Currently, I have just completed my undergraduate degree and am heading to{' '}
+                  <Link
+                    href={'https://www.nd.edu/'}
+                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                  >
+                    {' '}
+                    University of Notre Dame
+                  </Link>{' '}
+                  in Indiana to pursue a master’s as 1 of 4 Naughton Fellows selected this year on
+                  the{' '}
+                  <Link
+                    href={'https://esteem.nd.edu/'}
+                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                  >
+                    {' '}
+                    ESTEEM{' '}
+                  </Link>{' '}
+                  (Engineering, Science, and Technology Entrepreneurship Excellence Master) program.
+                </RoughNotation>
+              </p>
+              <br />
+
+              <br />
+            </div>
 
             <p>
-              If you'd like to work with me, or just have a chat feel free to reach out via any of my{' '}
+              If you'd like to work with me, or just have a chat feel free to reach out via any of
+              my{' '}
               <Link
                 href={'/contact'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -130,57 +131,56 @@ export default function AuthorLayout({ children, frontMatter }) {
               by Parth Desai.
             </p>
           </div>
-        <div className="mt-10 md:pl-1">
-          <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Experience
-            </h1>
-
-          </div>
-          <br></br>
-            <h3 className="text-0xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-6 md:text-1xl md:leading-3">
-                Product & Engineering Experience
+          <div className="mt-10 md:pl-1">
+            <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+              <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+                Experience
+              </h1>
+            </div>
+            <br></br>
+            <h3 className="text-0xl md:text-1xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-6 md:leading-3">
+              Product & Engineering Experience
             </h3>
-          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
-            {experienceData.map((d) => (
-              <Experience
-                key={d.company}
-                title={d.title}
-                company={d.company}
-                location={d.location}
-                range={d.range}
-                url={d.url}
-                text1={d.text1}
-                text2={d.text2}
-                text3={d.text3}
-                text4={d.text4} 
-              />
-            ))}
+            <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+              {experienceData.map((d) => (
+                <Experience
+                  key={d.company}
+                  title={d.title}
+                  company={d.company}
+                  location={d.location}
+                  range={d.range}
+                  url={d.url}
+                  text1={d.text1}
+                  text2={d.text2}
+                  text3={d.text3}
+                  text4={d.text4}
+                />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mt-10 md:pl-15">
+          <div className="md:pl-15 mt-10">
             <br></br>
             <h3 className="text-1xl font-extrabold leading-3 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-3 md:text-2xl md:leading-5">
               Teaching and Mentoring
             </h3>
-          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
-            {teachingData.map((d) => (
-              <Teaching
-                key={d.company}
-                title={d.title}
-                company={d.company}
-                location={d.location}
-                range={d.range}
-                url={d.url}
-                text1={d.text1}
-                text2={d.text2}
-                text3={d.text3}
-                text4={d.text4} 
-              />
-            ))}
+            <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+              {teachingData.map((d) => (
+                <Teaching
+                  key={d.company}
+                  title={d.title}
+                  company={d.company}
+                  location={d.location}
+                  range={d.range}
+                  url={d.url}
+                  text1={d.text1}
+                  text2={d.text2}
+                  text3={d.text3}
+                  text4={d.text4}
+                />
+              ))}
+            </div>
           </div>
-          </div>
-      </div>
+        </div>
       </div>
     </>
   )
