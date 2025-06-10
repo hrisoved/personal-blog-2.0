@@ -7,7 +7,7 @@ const projectsData = [
   <br/><br/>Built to evolve with me, it blends storytelling and technology to make meaningful ideas accessible and engaging.`,
     imgSrc: '', // Optional illustration or CLI screenshot
     href: 'dianahrisovescu.dev', // Add GitHub repo or project site if hosted
-    github: 'https://github.com/hrisoved/personal-blog',
+    github: 'https://github.com/hrisoved/personal-blog-2.0',
     tech: ['Next.js', 'React', 'Tailwind CSS', 'Node.js', 'JavaScript', 'Vercel'],
   },
   {
