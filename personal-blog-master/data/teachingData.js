@@ -23,7 +23,7 @@ const teachingData = [
     range: 'September 2023 - May 2024',
     url: 'https://www.tcd.ie/trinityaccess/schools/primary/coderdojo/',
     text1:
-      'Restarted the CoderDojo club at Trinity College after a 3-year hiatus, leading volunteer recruitment, vetting, content creation, and weekly coding sessions for young learners.',
+      'Restarted the Trinity CoderDojo club after a 3-year hiatus, leading volunteer recruitment, vetting, content creation, and teaching a total of 60 young learners aged 6-15 years old over the course of a full academic year. ',
   },
   {
     title: 'Lead Mentor',
@@ -31,7 +31,7 @@ const teachingData = [
     location: 'Dublin, Ireland',
     range: 'September 2020 - May 2025',
     url: 'https://teen-turn.com/',
-    text1: 'Mentored 200+ high school girls in tech — over 60% pursued STEM degrees.',
+    text1: 'Mentored 200+ high school girls by delivering hands-on workshops in programming, research methodologies, business planning, and public speaking—contributing to a 60% STEM degree uptake rate and over 50 student projects showcased nationally each year.',
   },
 ]
 
