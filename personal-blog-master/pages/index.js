@@ -270,7 +270,7 @@ export default function Home({ posts }) {
         </h2>
         <hr className="border-gray-200 dark:border-gray-700" />
         <ul>
-          {!posts.length && 'No posts found.'}
+          {!posts.length && 'No posts yet.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
