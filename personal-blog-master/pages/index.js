@@ -181,9 +181,9 @@ export default function Home({ posts }) {
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <Link href="">
+                  <Link href="https://substack.com/@dianahrisovescu">
                     <span className="relative flex w-80 items-center justify-between divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
-                      {'https://substack.com/@dianahrisovescu'}
+                      {''}
                       <span className="flex w-64 items-center space-x-5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
