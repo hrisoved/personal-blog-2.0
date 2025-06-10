@@ -31,7 +31,7 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div>
-        <div className="mb-12 flex flex-col gap-x-12 px-6 sm:px-8 xl:flex-row xl:items-start xl:justify-between xl:px-0">
+        <div className="mb-12 flex flex-col gap-x-12 px-6 sm:px-8 xl:flex-row xl:justify-between xl:px-0" style={{alignItems: "center"}}>
           <div className="pt-6">
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hi, I am{' '}
