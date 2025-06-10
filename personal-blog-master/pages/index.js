@@ -150,7 +150,7 @@ export default function Home({ posts }) {
                   >
                     reflections
                   </RoughNotation>{' '}
-                  on neuroscience, habit formation, decision-making, and the challenge of{' '}
+                  on neuroscience research, habit formation, decision-making, and the challenge of{' '}
                   <i>growing through discomfort</i> as a young adult.
                 </p>
                 <p>Let's get started!</p>
