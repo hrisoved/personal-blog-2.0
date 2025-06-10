@@ -7,7 +7,8 @@ const experienceData = [
     url: 'https://hops.healthcare/',
     text1:
       'I founded ScriptForms to help migrants in Ireland navigate complex welfare systems — today, it has supported over 15,000 migrants.',
-    text2: 'Secured $125,000 in funding, including the highly selective O’Shaughnessy Ventures Fellowship (awarded to the top 0.1% of global applicants)..',
+    text2:
+      'Secured $125,000 in funding, including the highly selective O’Shaughnessy Ventures Fellowship (awarded to the top 0.1% of global applicants)..',
     text3: 'Built and scaled a cloud-based platform using AWS.',
     text4:
       'Delivered stakeholder presentations, investor pitches, and product demos to NGOs and government agencies. Worked along a small but mighty team to drive real impact.',
@@ -27,7 +28,6 @@ const experienceData = [
     text4:
       'Authored technical specifications and conducted WCAG-compliant accessibility reviews for inclusive design.',
   },
-  
 ]
 
 export default experienceData

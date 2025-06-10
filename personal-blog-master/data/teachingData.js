@@ -31,7 +31,8 @@ const teachingData = [
     location: 'Dublin, Ireland',
     range: 'September 2020 - May 2025',
     url: 'https://teen-turn.com/',
-    text1: 'Mentored 200+ high school girls by delivering hands-on workshops in programming, research methodologies, business planning, and public speaking—contributing to a 60% STEM degree uptake rate and over 50 student projects showcased nationally each year.',
+    text1:
+      'Mentored 200+ high school girls by delivering hands-on workshops in programming, research methodologies, business planning, and public speaking—contributing to a 60% STEM degree uptake rate and over 50 student projects showcased nationally each year.',
   },
 ]
 
