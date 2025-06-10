@@ -209,8 +209,8 @@ export default function Home({ posts }) {
                     </span>
                   </Link>
                 </div>
-                </div>
-                </div>
+              </div>
+            </div>
           </div>
         </div>
         <h2 className="flex pb-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
