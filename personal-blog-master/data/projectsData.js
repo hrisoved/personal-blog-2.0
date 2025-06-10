@@ -1,5 +1,16 @@
 const projectsData = [
   {
+    title: 'Portfolio Website',
+    status: 'In Progress',
+    description: `This website is my personal digital space where I share my journey as a builder, dreamer, and creator. 
+  <br/><br/>💡 Motivated by a desire to connect, reflect, and inspire, it showcases stories from my college years, startup experiences, and lessons in public speaking, mentorship, and confidence-building. 
+  <br/><br/>Built to evolve with me, it blends storytelling and technology to make meaningful ideas accessible and engaging.`,
+    imgSrc: '', // Optional illustration or CLI screenshot
+    href: 'dianahrisovescu.dev', // Add GitHub repo or project site if hosted
+    github: 'https://github.com/hrisoved/personal-blog',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'Node.js', 'JavaScript', 'Vercel'],
+  },
+  {
     title: 'Script Forms LTD',
     status: 'Active',
     description: `Script Forms is a social impact platform I founded to 
