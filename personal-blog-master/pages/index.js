@@ -49,7 +49,7 @@ export default function Home({ posts }) {
               </span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              {`Welcome to ${siteMetadata.description}. I’m Diana — an entrepreneur, innovator,  maker, and recent graduate exploring what it means to build with purpose.`}
+              {`Welcome to ${siteMetadata.description}. I’m Diana — an entrepreneur, maker, and recent graduate with a passion for designing and communicating things that make people's lives better.`}
             </h2>
 
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
@@ -76,22 +76,12 @@ export default function Home({ posts }) {
                 <RoughNotation
                   type="underline"
                   show={true}
-                  color="#10B981"
-                  animationDelay={300}
-                  animationDuration={800}
-                >
-                  reflections
-                </RoughNotation>{' '}
-                on navigating college, lessons from{' '}
-                <RoughNotation
-                  type="underline"
-                  show={true}
                   color="#A78BFA"
                   animationDelay={600}
                   animationDuration={800}
                 >
                   public speaking
-                </RoughNotation>{' '}
+                </RoughNotation>
                 ,{' '}
                 <RoughNotation
                   type="underline"
@@ -102,7 +92,7 @@ export default function Home({ posts }) {
                 >
                   mentorship
                 </RoughNotation>
-                , and lastly building{' '}
+                , and building{' '}
                 <RoughNotation
                   type="underline"
                   show={true}
@@ -122,9 +112,25 @@ export default function Home({ posts }) {
                 >
                   resilience
                 </RoughNotation>{' '} */}
-                while working on things that matter and navigating the messiness of <i>life</i> on
-                my own, as a young adult..
-              </RoughNotationGroup>
+                while working on things that matter most.
+                <p>
+                  You’ll also find {' '}
+                  <RoughNotation
+                  type="underline"
+                  show={true}
+                  color="#10B981"
+                  animationDelay={300}
+                  animationDuration={800}
+                >
+                  reflections
+                </RoughNotation>{' '} on neuroscience, habit formation, decision-making, and the
+                  challenge of <i>growing through discomfort</i> as a young adult.
+                </p>
+                <p>Let's get started!</p>
+               
+                </RoughNotationGroup>{' '}
+              
+                
             </h2>
           </div>
           {/* Buttons  */}

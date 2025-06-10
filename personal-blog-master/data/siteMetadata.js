@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Diana Hrisovescu | Blog',
   author: 'Diana Hrisovescu',
   headerTitle: '',
-  description: 'my space online where I have finally decided to share my thoughts',
+  description: 'my space online where I’ve finally decided to share what I’m learning and unlearning',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: '',

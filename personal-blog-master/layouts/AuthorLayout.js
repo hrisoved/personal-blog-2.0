@@ -72,7 +72,10 @@ export default function AuthorLayout({ children, frontMatter }) {
                   animationDelay={300}
                   animationDuration={3000}
                 >
-                  {text1} Currently, I have just completed my undergraduate degree and am heading to{' '}
+                  <p>{text1}</p>
+                  <p>{text2}</p>
+                  <p>
+                   Currently, I have just completed my undergraduate degree and am heading to{' '}
                   <Link
                     href={'https://www.nd.edu/'}
                     className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -90,13 +93,14 @@ export default function AuthorLayout({ children, frontMatter }) {
                     ESTEEM{' '}
                   </Link>{' '}
                   (Engineering, Science, and Technology Entrepreneurship Excellence Master) program.
+                </p>
                 </RoughNotation>
               </p>
 
             </div>
 
             <p>
-              If you'd like to work with me, or just have a chat feel free to reach out via any of
+              If you would like to have a chat feel free to reach out via any of
               my{' '}
               <Link
                 href={'/contact'}
