@@ -114,23 +114,21 @@ export default function Home({ posts }) {
                 </RoughNotation>{' '} */}
                 while working on things that matter most.
                 <p>
-                  You’ll also find {' '}
+                  You’ll also find{' '}
                   <RoughNotation
-                  type="underline"
-                  show={true}
-                  color="#10B981"
-                  animationDelay={300}
-                  animationDuration={800}
-                >
-                  reflections
-                </RoughNotation>{' '} on neuroscience, habit formation, decision-making, and the
-                  challenge of <i>growing through discomfort</i> as a young adult.
+                    type="underline"
+                    show={true}
+                    color="#10B981"
+                    animationDelay={300}
+                    animationDuration={800}
+                  >
+                    reflections
+                  </RoughNotation>{' '}
+                  on neuroscience, habit formation, decision-making, and the challenge of{' '}
+                  <i>growing through discomfort</i> as a young adult.
                 </p>
                 <p>Let's get started!</p>
-               
-                </RoughNotationGroup>{' '}
-              
-                
+              </RoughNotationGroup>{' '}
             </h2>
           </div>
           {/* Buttons  */}
