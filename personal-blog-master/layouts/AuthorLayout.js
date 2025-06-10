@@ -2,7 +2,9 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 import Link from '@/components/Link'
 import Experience from '@/components/Experience'
+import Teaching from '@/components/Teaching'
 import experienceData from '@/data/experienceData'
+import teachingData from '@/data/teachingData'
 import { RoughNotation } from 'react-rough-notation'
 import { AiOutlineTwitter } from 'react-icons/ai'
 
@@ -24,13 +26,16 @@ export default function AuthorLayout({ children, frontMatter }) {
 
   return (
     <>
-      <PageSEO title={`About - ${name}`} description={`A little trivia me`} />
+      <PageSEO title={`About - ${name}`} description={`A little bit about me`} />
       <div className="">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5 md:pl-16">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          {/* <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             About
-          </h1>
-        </div>
+          </h1> */}
+              </div>
+
+      <div className="mx-auto max-w-6xl divide-y divide-gray-400">
+        
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center space-x-2 pt-8 xl:sticky xl:top-0">
             <Image
@@ -84,25 +89,16 @@ export default function AuthorLayout({ children, frontMatter }) {
                   {' '}
                   ESTEEM{' '}
                 </Link>{' '}
-                (Engineering, Science, and Technology Entrepreneurship Excellence Master’s) program.
+                (Engineering, Science, and Technology Entrepreneurship Excellence Master) program.
               </RoughNotation>
             </p>
             <br />
-            <p className="sm:block md:block lg:block">
-              I love broadening my horizons by finding new ways to combine my interests. Most
-              recently, I've decided to start writing on my new blog to materialize some of my
-              thoughts. I've also started to get involved around the various events held at{' '}
-              <Link
-                href={'https://dogpatchlabs.com/'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-              >
-                Dogpatch Labs
-              </Link>{' '}
-              in the last year - it's very inspiring to meet many talented builders.
-            </p>
+            
             <br />
+                    </div>
+
             <p>
-              If you'd like to work with me, feel free to reach out via any of my{' '}
+              If you'd like to work with me, or just have a chat feel free to reach out via any of my{' '}
               <Link
                 href={'/contact'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -110,7 +106,6 @@ export default function AuthorLayout({ children, frontMatter }) {
                 contacts.
               </Link>
             </p>
-            <br />
             <p>
               This site is inspired by the following{' '}
               <Link
@@ -135,13 +130,17 @@ export default function AuthorLayout({ children, frontMatter }) {
               by Parth Desai.
             </p>
           </div>
-        </div>
-        <div className="mt-10 md:pl-16">
+        <div className="mt-10 md:pl-1">
           <div className="space-y-2 pt-6 pb-8 md:space-y-5">
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Experience
             </h1>
+
           </div>
+          <br></br>
+            <h3 className="text-0xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-6 md:text-1xl md:leading-3">
+                Product & Engineering Experience
+            </h3>
           <div className="max-w-none pt-8 pb-8 xl:col-span-2">
             {experienceData.map((d) => (
               <Experience
@@ -154,10 +153,34 @@ export default function AuthorLayout({ children, frontMatter }) {
                 text1={d.text1}
                 text2={d.text2}
                 text3={d.text3}
+                text4={d.text4} 
               />
             ))}
           </div>
         </div>
+        <div className="mt-10 md:pl-15">
+            <br></br>
+            <h3 className="text-1xl font-extrabold leading-3 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-3 md:text-2xl md:leading-5">
+              Teaching and Mentoring
+            </h3>
+          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+            {teachingData.map((d) => (
+              <Teaching
+                key={d.company}
+                title={d.title}
+                company={d.company}
+                location={d.location}
+                range={d.range}
+                url={d.url}
+                text1={d.text1}
+                text2={d.text2}
+                text3={d.text3}
+                text4={d.text4} 
+              />
+            ))}
+          </div>
+          </div>
+      </div>
       </div>
     </>
   )

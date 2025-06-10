@@ -15,18 +15,21 @@ const experienceData = [
       'Collaborated with engineers, designers, and product leads across multiple teams to align on feature priorities, improve internal documentation, and support the platform’s cross-functional rollout.',
     },
   {
-    title: 'Software Engineer Analytics',
-    company: 'HOPS Healthcare',
-    location: 'Ahmedabad, India',
+    title: 'Founder & CEO ',
+    company: 'ScriptForms',
+    location: 'Dublin, Ireland',
     range: 'March 2021 - June 2021',
     url: 'https://hops.healthcare/',
     text1:
-      'Guided by Mr. Vivek Patel, to create a pipeline that extracts essential information from informal conversations.',
+      'I founded ScriptForms to help migrants in Ireland navigate complex welfare systems — today, it has supported 15,000+ users.',
     text2:
-      'Worked on creating a web app for their healthcare system for doctors to analyze and save reports.',
+      'Raised $125,000+ in funding.',
     text3:
-      'Developed functions for automatically extracting important elements from reports using BioBERT and Regex.',
+      'Built and scaled a cloud-based platform using AWS.',
+    text4:
+      'Worked directly with NGOs, government partners, and a small but mighty team to drive real impact.'
   },
+  
 ]
 
 export default experienceData
