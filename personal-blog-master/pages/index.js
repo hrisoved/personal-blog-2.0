@@ -64,7 +64,7 @@ export default function Home({ posts }) {
                 <span
                   style={{
                     display: 'inline-block',
-                    maxWidth: '95%', // allow full width but limit if needed
+                    maxWidth: '100%', // allow full width but limit if needed
                     whiteSpace: 'normal', // allow wrapping
                     overflow: 'visible', // no clipping for underline
                     textOverflow: 'unset',
