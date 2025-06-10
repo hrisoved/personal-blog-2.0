@@ -75,7 +75,16 @@ export default function AuthorLayout({ children, frontMatter }) {
                   <p>{text1}</p>
                   <p>{text2}</p>
                   <p>
-                    Currently, I have just completed my undergraduate degree and am heading to{' '}
+                    Currently, I have just completed my 4-years undergraduate degree in Computer
+                    Science and Business at
+                    <Link
+                      href={'https://www.tcd.ie/'}
+                      className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                    >
+                      {' '}
+                      University of Dublin, Trinity College
+                    </Link>{' '}
+                    and am heading to{' '}
                     <Link
                       href={'https://www.nd.edu/'}
                       className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
