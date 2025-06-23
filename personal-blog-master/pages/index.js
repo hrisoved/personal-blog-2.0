@@ -159,13 +159,20 @@ export default function Home({ posts }) {
                     reflections
                   </RoughNotation>{' '}
                   on neuroscience research, habit formation, decision-making, and the challenge of{' '}
-                  <i>growing through discomfort</i> as a young adult on my <Link
-              href={'https://substack.com/@dianahrisovescu'}
-              className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-            >Substack</Link> and <Link
-              href={'https://www.linkedin.com/in/diana-hrisovescu/'}
-              className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-            >LinkedIn</Link>
+                  <i>growing through discomfort</i> as a young adult on my{' '}
+                  <Link
+                    href={'https://substack.com/@dianahrisovescu'}
+                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                  >
+                    Substack
+                  </Link>{' '}
+                  and{' '}
+                  <Link
+                    href={'https://www.linkedin.com/in/diana-hrisovescu/'}
+                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                  >
+                    LinkedIn
+                  </Link>
                 </p>
                 <p>Let's get started!</p>
               </RoughNotationGroup>{' '}
@@ -274,9 +281,7 @@ export default function Home({ posts }) {
             </div>
           </div>
         </div>
-    
       </div>
-      
     </>
   )
 }
