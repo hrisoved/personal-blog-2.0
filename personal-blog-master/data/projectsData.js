@@ -2,9 +2,11 @@ const projectsData = [
   {
     title: 'Portfolio Website',
     status: 'In Progress',
-    description: `This website is my personal digital space where I share my journey as a builder, dreamer, and creator. 
-  <br/><br/>💡 Motivated by a desire to connect, reflect, and inspire, it showcases stories from my college years, startup experiences, and lessons in public speaking, mentorship, and confidence-building. 
-  <br/><br/>Built to evolve with me, it blends storytelling and technology to make meaningful ideas accessible and engaging.`,
+    description: `This is my personal digital space — a home for everything I’m building, exploring, and growing into.
+<br/><br/>
+💡 It captures my journey as a builder, speaker, and startup founder — from college to global fellowships — and shares my evolving work in technology, entrepreneurship, and impact.
+<br/><br/>
+While my longer-form writing will live on Substack, this site is here to reflect who I am, what I’ve built, and what I care about.`,
     imgSrc: '', // Optional illustration or CLI screenshot
     href: 'dianahrisovescu.dev', // Add GitHub repo or project site if hosted
     github: 'https://github.com/hrisoved/personal-blog-2.0',
