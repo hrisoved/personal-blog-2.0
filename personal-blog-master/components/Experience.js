@@ -16,23 +16,19 @@ const Experience = ({ title, company, location, range, url, text1, text2 }) => {
         <div className="p-1 font-mono text-sm text-gray-400 dark:text-gray-600">{range}</div>
 
         <div className="p-2">
-          <div className="flex flex-row ">
-            {text1 != '' ? (
-              <>
-                <div className="mr-2 text-lg text-primary-color-500"> &#8227;</div>
-                <div className="text-gray-500 dark:text-gray-400">{text1}</div>
-              </>
-            ) : null}
-          </div>
+          {text1 != '' ? (
+            <div className="flex flex-row ">
+              <div className="mr-2 text-lg text-primary-color-500"> &#8227;</div>
+              <div className="text-gray-500 dark:text-gray-400">{text1}</div>
+            </div>
+          ) : null}
 
-          <div className="flex flex-row">
-            {text2 != '' ? (
-              <>
-                <div className="mr-2 text-lg text-primary-color-500"> &#8227;</div>
-                <div className="text-gray-500 dark:text-gray-400">{text2}</div>
-              </>
-            ) : null}
-          </div>
+          {text2 != '' ? (
+            <div className="flex flex-row">
+              <div className="mr-2 text-lg text-primary-color-500"> &#8227;</div>
+              <div className="text-gray-500 dark:text-gray-400">{text2}</div>
+            </div>
+          ) : null}
         </div>
       </div>
       {/* <div className="justify-center text-center text-2xl font-medium text-gray-200  dark:text-gray-600">
