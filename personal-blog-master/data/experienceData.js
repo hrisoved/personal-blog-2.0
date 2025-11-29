@@ -6,13 +6,15 @@ const experienceData = [
     range: 'March 2021 - June 2021',
     url: 'https://hops.healthcare/',
     text1:
-      'I founded ScriptForms to help migrants in Ireland navigate complex welfare systems — today, it has supported over 15,000 migrants.',
+      'Founded and scaled a social impact platform, supporting 15,000+ migrants in Ireland to access welfare support.',
     text2:
-      'Secured $125,000 in funding, including the highly selective O’Shaughnessy Ventures Fellowship (awarded to the top 0.1% of global applicants)..',
-    text3: 'Built and scaled a cloud-based platform using AWS.',
+      'Secured $125,000 in funding, including O’Shaughnessy Ventures Fellowship (top 0.1% of global applicants).',
+    text3: 'Designed, and implemented software via AWS, increasing welfare application speed, reducing manual overhead.',
     text4:
-      'Delivered stakeholder presentations, investor pitches, and product demos to NGOs and government agencies. Worked along a small but mighty team to drive real impact.',
-  },
+      'Delivered stakeholder presentations, investor pitches, and product demos to NGOs and government agencies.',
+    text5: '30 Under 30 Honoree Lists: Business Post (2024) and Irish Independent (2022)',
+    text6: '',
+    },
   {
     title: 'Product Manager Intern',
     company: 'Microsoft',
