@@ -84,25 +84,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                       {' '}
                       University of Dublin, Trinity College
                     </Link>{' '}
-                    and am heading to{' '}
-                    <Link
-                      href={'https://www.nd.edu/'}
-                      className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                    >
-                      {' '}
-                      University of Notre Dame
-                    </Link>{' '}
-                    in Indiana to pursue a master’s as 1 of 4 Naughton Fellows selected this year on
-                    the{' '}
-                    <Link
-                      href={'https://esteem.nd.edu/'}
-                      className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                    >
-                      {' '}
-                      ESTEEM{' '}
-                    </Link>{' '}
-                    (Engineering, Science, and Technology Entrepreneurship Excellence Master)
-                    program.
+                    and I was awarded the Gold Medal awarded for exceptional academic excellence in my undergraduate degree.
                   </p>
                 </RoughNotation>
               </p>
