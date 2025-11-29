@@ -85,8 +85,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                       {' '}
                       University of Dublin, Trinity College
                     </Link>{' '}
-                    and I was awarded the Gold Medal for exceptional academic excellence in
-                    my undergraduate degree.
+                    and I was awarded the Gold Medal for exceptional academic excellence in my
+                    undergraduate degree.
                   </p>
                 </RoughNotation>
               </p>
