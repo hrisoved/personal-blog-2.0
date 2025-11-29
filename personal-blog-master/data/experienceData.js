@@ -1,6 +1,6 @@
 const experienceData = [
     {
-    title: 'Product Manager ',
+    title: 'Product Manager',
     company: 'Microsoft',
     location: 'Dublin, Ireland',
     range: 'September 2025 - Present',
@@ -8,7 +8,7 @@ const experienceData = [
     text1: '', 
     },
   {
-    title: 'Founder & CEO ',
+    title: 'Founder & CEO',
     company: 'ScriptForms',
     location: 'Dublin, Ireland',
     range: 'January 2020 - June 2025',
