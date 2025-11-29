@@ -1,7 +1,7 @@
 ---
 layout: AuthorLayout
 name: Diana Hrisovescu
-avatar: /static/images/profile-photo1.jpg
+avatar: /static/images/profile-photo.jpg
 occupation: Ex Founder, Computer Science and Business Graduate @Trinity College Dublin
 # company:
 # email:

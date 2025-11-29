@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: '',
   siteRepo: 'https://personal-blog-dianas-projects-a1268515.vercel.app',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/profile-photo1.jpg',
+  image: '/static/images/profile-photo.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: '',
   github: 'https://github.com/hrisoved',
