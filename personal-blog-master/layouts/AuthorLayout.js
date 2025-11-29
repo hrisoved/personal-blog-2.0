@@ -42,6 +42,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 alt="avatar"
                 width="192px"
                 height="192px"
+                objectFit="cover"
                 className="h-48 w-48 rounded-full xl:rounded-full"
                 placeholder="blur"
                 blurDataURL="/static/images/SVG-placeholder.png"
