@@ -76,7 +76,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                   <p>{text1}</p>
                   <p>{text2}</p>
                   <p>
-                    Recently, I have just completed my 4-years undergraduate degree in Computer
+                    Recently, I have just completed my 4 year undergraduate degree in Computer
                     Science and Business with a First Class Honours at
                     <Link
                       href={'https://www.tcd.ie/'}
@@ -85,7 +85,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                       {' '}
                       University of Dublin, Trinity College
                     </Link>{' '}
-                    and I was awarded the Gold Medal awarded for exceptional academic excellence in
+                    and I was awarded the Gold Medal for exceptional academic excellence in
                     my undergraduate degree.
                   </p>
                 </RoughNotation>
