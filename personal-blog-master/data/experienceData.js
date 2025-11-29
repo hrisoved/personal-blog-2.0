@@ -5,7 +5,8 @@ const experienceData = [
     location: 'Dublin, Ireland',
     range: 'September 2025 - Present',
     url: '',
-    text1: '', 
+    text1: '',
+    text2: '', 
     },
   {
     title: 'Founder & CEO',
@@ -24,6 +25,7 @@ const experienceData = [
     url: 'https://www.microsoft.com/en-ie/',
     text1:
       'Contributed to the development of an internal engineering platform aimed at improving engineering efficiency for 33 global teams across products such as Microsoft Office 365 and Copilot.',
+    text2:'',
     },
 ]
 
