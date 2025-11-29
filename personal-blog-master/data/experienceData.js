@@ -1,19 +1,20 @@
 const experienceData = [
+    {
+    title: 'Product Manager ',
+    company: 'Microsoft',
+    location: 'Dublin, Ireland',
+    range: 'September 2025 - Present',
+    url: '',
+    text1: '', 
+    },
   {
     title: 'Founder & CEO ',
     company: 'ScriptForms',
     location: 'Dublin, Ireland',
-    range: 'March 2021 - June 2021',
-    url: 'https://hops.healthcare/',
-    text1:
-      'Founded and scaled a social impact platform, supporting 15,000+ migrants in Ireland to access welfare support.',
-    text2:
-      'Secured $125,000 in funding, including O’Shaughnessy Ventures Fellowship (top 0.1% of global applicants).',
-    text3: 'Designed, and implemented software via AWS, increasing welfare application speed, reducing manual overhead.',
-    text4:
-      'Delivered stakeholder presentations, investor pitches, and product demos to NGOs and government agencies.',
-    text5: '30 Under 30 Honoree Lists: Business Post (2024) and Irish Independent (2022)',
-    text6: '',
+    range: 'January 2020 - June 2025',
+    url: 'https://www.scriptforms.ie/',
+    text1: 'Founded, built and scaled a web platform serving 15,000+ migrants in Ireland to access welfare support. Secured $125,000 in funding, including O’Shaughnessy Ventures Fellowship (top 0.1% of global applicants).', 
+    text2: '30 Under 30 Honoree Lists: Business Post (2024) and Irish Independent (2022)',
     },
   {
     title: 'Product Manager Intern',
@@ -22,14 +23,8 @@ const experienceData = [
     range: 'June 2024 - August 2024',
     url: 'https://www.microsoft.com/en-ie/',
     text1:
-      'Contributed to the development of an internal engineering platform aimed at improving workflow efficiency for 30 global engineering teams across products such as Microsoft Office 365 and Copilot.',
-    text2:
-      'Led efforts to define and communicate the value proposition of the tool, helping stakeholders better understand its strategic impact.',
-    text3:
-      'Designed high-fidelity Figma prototypes to enhance platform usability and communicate a stronger value proposition.',
-    text4:
-      'Authored technical specifications and conducted WCAG-compliant accessibility reviews for inclusive design.',
-  },
+      'Contributed to the development of an internal engineering platform aimed at improving engineering efficiency for 33 global teams across products such as Microsoft Office 365 and Copilot.',
+    },
 ]
 
 export default experienceData
