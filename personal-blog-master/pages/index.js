@@ -77,7 +77,7 @@ export default function Home({ posts }) {
                     textOverflow: 'unset',
                   }}
                 >
-                  You’ll find stories about my years in{' '}
+                  I am planning to write about my time in{' '}
                   <RoughNotation
                     type="underline"
                     show={true}
@@ -95,7 +95,7 @@ export default function Home({ posts }) {
                     animationDelay={300}
                     animationDuration={800}
                   >
-                    startup journey,
+                    my startup journey,
                   </RoughNotation>{' '}
                   <RoughNotation
                     type="underline"
@@ -145,7 +145,7 @@ export default function Home({ posts }) {
                 >
                   resilience
                 </RoughNotation>{' '} */}
-                  while working on things that matter most.
+                  while working on things that I have deemed to matter most.
                 </span>
                 <p>
                   You’ll also find{' '}
@@ -158,15 +158,15 @@ export default function Home({ posts }) {
                   >
                     reflections
                   </RoughNotation>{' '}
-                  on neuroscience research, habit formation, decision-making, and the challenge of{' '}
-                  <i>growing through discomfort</i> as a young adult on my{' '}
+                  on topics such as habit formation, decision-making, and the challenge of{' '}
+                  <i>growing through discomfort</i> as a young adult on my incoming page on{' '}
                   <Link
                     href={'https://substack.com/@dianahrisovescu'}
                     className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
                   >
                     Substack
                   </Link>{' '}
-                  and{' '}
+                  and on my{' '}
                   <Link
                     href={'https://www.linkedin.com/in/diana-hrisovescu/'}
                     className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
